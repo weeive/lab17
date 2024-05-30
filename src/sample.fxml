@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea"
+xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <Button fx:id="buttonOne" onAction="#clickButton1" layoutX="77.0" layoutY="47.0" mnemonicParsing="false" text="Button1" />
+            <Button fx:id="buttonTwo" onAction="#clickButton2" layoutX="166.0" layoutY="47.0" mnemonicParsing="false" text="Button2" />
+            <Button fx:id="buttonThree" onAction="#clickButton3" layoutX="255.0" layoutY="47.0" mnemonicParsing="false" text="Button3" />
+            <Label fx:id="LabelBtn" layoutX="86.0" layoutY="106.0" prefHeight="57.0" prefWidth="218.0" text="Click the button" textAlignment="CENTER"  alignment="center" contentDisplay="CENTER"/>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
